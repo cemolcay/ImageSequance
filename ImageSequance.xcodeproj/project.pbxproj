@@ -7,25 +7,189 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B22BFAF11E9965EA005130EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFAF01E9965EA005130EE /* AppDelegate.swift */; };
-		B22BFAF31E9965EA005130EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFAF21E9965EA005130EE /* ViewController.swift */; };
-		B22BFAF61E9965EA005130EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22BFAF41E9965EA005130EE /* Main.storyboard */; };
-		B22BFAF81E9965EA005130EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22BFAF71E9965EA005130EE /* Assets.xcassets */; };
-		B22BFAFB1E9965EA005130EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22BFAF91E9965EA005130EE /* LaunchScreen.storyboard */; };
+		B22BFB3A1E9969B9005130EE /* ImageSequance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFB391E9969B9005130EE /* ImageSequance.swift */; };
+		B22BFB3B1E9969B9005130EE /* ImageSequance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFB391E9969B9005130EE /* ImageSequance.swift */; };
+		B22BFB3C1E9969B9005130EE /* ImageSequance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFB391E9969B9005130EE /* ImageSequance.swift */; };
+		B22BFB3D1E9969B9005130EE /* ImageSequance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFB391E9969B9005130EE /* ImageSequance.swift */; };
+		B22BFB431E996A3B005130EE /* ImageSequance.h in Headers */ = {isa = PBXBuildFile; fileRef = B22BFB3E1E996A3B005130EE /* ImageSequance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B22BFB441E996A3B005130EE /* ImageSequance.h in Headers */ = {isa = PBXBuildFile; fileRef = B22BFB3E1E996A3B005130EE /* ImageSequance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B22BFB451E996A3B005130EE /* ImageSequance.h in Headers */ = {isa = PBXBuildFile; fileRef = B22BFB3E1E996A3B005130EE /* ImageSequance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B22BFB461E996A3B005130EE /* ImageSequance.h in Headers */ = {isa = PBXBuildFile; fileRef = B22BFB3E1E996A3B005130EE /* ImageSequance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B22BFB471E996A3B005130EE /* Info iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB3F1E996A3B005130EE /* Info iOS.plist */; };
+		B22BFB481E996A3B005130EE /* Info iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB3F1E996A3B005130EE /* Info iOS.plist */; };
+		B22BFB491E996A3B005130EE /* Info iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB3F1E996A3B005130EE /* Info iOS.plist */; };
+		B22BFB4A1E996A3B005130EE /* Info iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB3F1E996A3B005130EE /* Info iOS.plist */; };
+		B22BFB4B1E996A3B005130EE /* Info Mac.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB401E996A3B005130EE /* Info Mac.plist */; };
+		B22BFB4C1E996A3B005130EE /* Info Mac.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB401E996A3B005130EE /* Info Mac.plist */; };
+		B22BFB4D1E996A3B005130EE /* Info Mac.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB401E996A3B005130EE /* Info Mac.plist */; };
+		B22BFB4E1E996A3B005130EE /* Info Mac.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB401E996A3B005130EE /* Info Mac.plist */; };
+		B22BFB4F1E996A3B005130EE /* Info TV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB411E996A3B005130EE /* Info TV.plist */; };
+		B22BFB501E996A3B005130EE /* Info TV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB411E996A3B005130EE /* Info TV.plist */; };
+		B22BFB511E996A3B005130EE /* Info TV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB411E996A3B005130EE /* Info TV.plist */; };
+		B22BFB521E996A3B005130EE /* Info TV.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB411E996A3B005130EE /* Info TV.plist */; };
+		B22BFB531E996A3B005130EE /* Info Watch.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB421E996A3B005130EE /* Info Watch.plist */; };
+		B22BFB541E996A3B005130EE /* Info Watch.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB421E996A3B005130EE /* Info Watch.plist */; };
+		B22BFB551E996A3B005130EE /* Info Watch.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB421E996A3B005130EE /* Info Watch.plist */; };
+		B22BFB561E996A3B005130EE /* Info Watch.plist in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB421E996A3B005130EE /* Info Watch.plist */; };
+		B22BFB5E1E99759C005130EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFB5D1E99759C005130EE /* AppDelegate.swift */; };
+		B22BFB601E99759C005130EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFB5F1E99759C005130EE /* ViewController.swift */; };
+		B22BFB621E99759C005130EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB611E99759C005130EE /* Assets.xcassets */; };
+		B22BFB651E99759C005130EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB631E99759C005130EE /* Main.storyboard */; };
+		B22BFB711E9979C5005130EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFB701E9979C5005130EE /* AppDelegate.swift */; };
+		B22BFB731E9979C5005130EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFB721E9979C5005130EE /* ViewController.swift */; };
+		B22BFB761E9979C5005130EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB741E9979C5005130EE /* Main.storyboard */; };
+		B22BFB781E9979C5005130EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB771E9979C5005130EE /* Assets.xcassets */; };
+		B22BFB841E997B3C005130EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFB831E997B3C005130EE /* AppDelegate.swift */; };
+		B22BFB861E997B3C005130EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFB851E997B3C005130EE /* ViewController.swift */; };
+		B22BFB891E997B3C005130EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB871E997B3C005130EE /* Main.storyboard */; };
+		B22BFB8B1E997B3C005130EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB8A1E997B3C005130EE /* Assets.xcassets */; };
+		B22BFB8E1E997B3C005130EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB8C1E997B3C005130EE /* LaunchScreen.storyboard */; };
+		B22BFB991E997B53005130EE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB971E997B53005130EE /* Interface.storyboard */; };
+		B22BFB9B1E997B53005130EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22BFB9A1E997B53005130EE /* Assets.xcassets */; };
+		B22BFBA21E997B54005130EE /* ExampleWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B22BFBA11E997B54005130EE /* ExampleWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B22BFBA91E997B54005130EE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFBA81E997B54005130EE /* InterfaceController.swift */; };
+		B22BFBAB1E997B54005130EE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFBAA1E997B54005130EE /* ExtensionDelegate.swift */; };
+		B22BFBAD1E997B54005130EE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22BFBAC1E997B54005130EE /* NotificationController.swift */; };
+		B22BFBAF1E997B54005130EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B22BFBAE1E997B54005130EE /* Assets.xcassets */; };
+		B22BFBB31E997B54005130EE /* ExampleWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B22BFB951E997B53005130EE /* ExampleWatch.app */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B22BFBA31E997B54005130EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B22BFAE51E9965EA005130EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B22BFBA01E997B54005130EE;
+			remoteInfo = "ExampleWatch Extension";
+		};
+		B22BFBB11E997B54005130EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B22BFAE51E9965EA005130EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B22BFB941E997B53005130EE;
+			remoteInfo = ExampleWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B22BFBB71E997B54005130EE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B22BFBA21E997B54005130EE /* ExampleWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFBBB1E997B54005130EE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B22BFBB31E997B54005130EE /* ExampleWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		B22BFAED1E9965EA005130EE /* ImageSequance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSequance.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B22BFAF01E9965EA005130EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B22BFAF21E9965EA005130EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B22BFAF51E9965EA005130EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B22BFAF71E9965EA005130EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B22BFAFA1E9965EA005130EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B22BFAFC1E9965EA005130EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22BFB091E996981005130EE /* ImageSequance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageSequance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22BFB161E996993005130EE /* ImageSequance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageSequance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22BFB231E99699F005130EE /* ImageSequance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageSequance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22BFB301E9969AE005130EE /* ImageSequance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageSequance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22BFB391E9969B9005130EE /* ImageSequance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSequance.swift; sourceTree = "<group>"; };
+		B22BFB3E1E996A3B005130EE /* ImageSequance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSequance.h; sourceTree = "<group>"; };
+		B22BFB3F1E996A3B005130EE /* Info iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info iOS.plist"; sourceTree = "<group>"; };
+		B22BFB401E996A3B005130EE /* Info Mac.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info Mac.plist"; sourceTree = "<group>"; };
+		B22BFB411E996A3B005130EE /* Info TV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info TV.plist"; sourceTree = "<group>"; };
+		B22BFB421E996A3B005130EE /* Info Watch.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info Watch.plist"; sourceTree = "<group>"; };
+		B22BFB5B1E99759C005130EE /* ExampleMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22BFB5D1E99759C005130EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B22BFB5F1E99759C005130EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B22BFB611E99759C005130EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B22BFB641E99759C005130EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B22BFB661E99759C005130EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22BFB6E1E9979C5005130EE /* ExampleTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22BFB701E9979C5005130EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B22BFB721E9979C5005130EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B22BFB751E9979C5005130EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B22BFB771E9979C5005130EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B22BFB791E9979C5005130EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22BFB811E997B3C005130EE /* ExampleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22BFB831E997B3C005130EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B22BFB851E997B3C005130EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B22BFB881E997B3C005130EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B22BFB8A1E997B3C005130EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B22BFB8D1E997B3C005130EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B22BFB8F1E997B3C005130EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22BFB951E997B53005130EE /* ExampleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22BFB981E997B53005130EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B22BFB9A1E997B53005130EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B22BFB9C1E997B53005130EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22BFBA11E997B54005130EE /* ExampleWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ExampleWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22BFBA71E997B54005130EE /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B22BFBA81E997B54005130EE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B22BFBAA1E997B54005130EE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B22BFBAC1E997B54005130EE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		B22BFBAE1E997B54005130EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B22BFBB01E997B54005130EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B22BFAEA1E9965EA005130EE /* Frameworks */ = {
+		B22BFB051E996981005130EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB121E996993005130EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB1F1E99699F005130EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB2C1E9969AE005130EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB581E99759C005130EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB6B1E9979C5005130EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB7E1E997B3C005130EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB9E1E997B54005130EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +202,12 @@
 		B22BFAE41E9965EA005130EE = {
 			isa = PBXGroup;
 			children = (
-				B22BFAEF1E9965EA005130EE /* ImageSequance */,
+				B22BFB381E9969B9005130EE /* Source */,
+				B22BFB5C1E99759C005130EE /* ExampleMac */,
+				B22BFB6F1E9979C5005130EE /* ExampleTV */,
+				B22BFB821E997B3C005130EE /* ExampleiOS */,
+				B22BFB961E997B53005130EE /* ExampleWatch */,
+				B22BFBA51E997B54005130EE /* ExampleWatch Extension */,
 				B22BFAEE1E9965EA005130EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,43 +215,296 @@
 		B22BFAEE1E9965EA005130EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B22BFAED1E9965EA005130EE /* ImageSequance.app */,
+				B22BFB091E996981005130EE /* ImageSequance.framework */,
+				B22BFB161E996993005130EE /* ImageSequance.framework */,
+				B22BFB231E99699F005130EE /* ImageSequance.framework */,
+				B22BFB301E9969AE005130EE /* ImageSequance.framework */,
+				B22BFB5B1E99759C005130EE /* ExampleMac.app */,
+				B22BFB6E1E9979C5005130EE /* ExampleTV.app */,
+				B22BFB811E997B3C005130EE /* ExampleiOS.app */,
+				B22BFB951E997B53005130EE /* ExampleWatch.app */,
+				B22BFBA11E997B54005130EE /* ExampleWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B22BFAEF1E9965EA005130EE /* ImageSequance */ = {
+		B22BFB381E9969B9005130EE /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				B22BFAF01E9965EA005130EE /* AppDelegate.swift */,
-				B22BFAF21E9965EA005130EE /* ViewController.swift */,
-				B22BFAF41E9965EA005130EE /* Main.storyboard */,
-				B22BFAF71E9965EA005130EE /* Assets.xcassets */,
-				B22BFAF91E9965EA005130EE /* LaunchScreen.storyboard */,
-				B22BFAFC1E9965EA005130EE /* Info.plist */,
+				B22BFB391E9969B9005130EE /* ImageSequance.swift */,
+				B22BFB3E1E996A3B005130EE /* ImageSequance.h */,
+				B22BFB3F1E996A3B005130EE /* Info iOS.plist */,
+				B22BFB401E996A3B005130EE /* Info Mac.plist */,
+				B22BFB411E996A3B005130EE /* Info TV.plist */,
+				B22BFB421E996A3B005130EE /* Info Watch.plist */,
 			);
-			path = ImageSequance;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B22BFB5C1E99759C005130EE /* ExampleMac */ = {
+			isa = PBXGroup;
+			children = (
+				B22BFB5D1E99759C005130EE /* AppDelegate.swift */,
+				B22BFB5F1E99759C005130EE /* ViewController.swift */,
+				B22BFB611E99759C005130EE /* Assets.xcassets */,
+				B22BFB631E99759C005130EE /* Main.storyboard */,
+				B22BFB661E99759C005130EE /* Info.plist */,
+			);
+			path = ExampleMac;
+			sourceTree = "<group>";
+		};
+		B22BFB6F1E9979C5005130EE /* ExampleTV */ = {
+			isa = PBXGroup;
+			children = (
+				B22BFB701E9979C5005130EE /* AppDelegate.swift */,
+				B22BFB721E9979C5005130EE /* ViewController.swift */,
+				B22BFB741E9979C5005130EE /* Main.storyboard */,
+				B22BFB771E9979C5005130EE /* Assets.xcassets */,
+				B22BFB791E9979C5005130EE /* Info.plist */,
+			);
+			path = ExampleTV;
+			sourceTree = "<group>";
+		};
+		B22BFB821E997B3C005130EE /* ExampleiOS */ = {
+			isa = PBXGroup;
+			children = (
+				B22BFB831E997B3C005130EE /* AppDelegate.swift */,
+				B22BFB851E997B3C005130EE /* ViewController.swift */,
+				B22BFB871E997B3C005130EE /* Main.storyboard */,
+				B22BFB8A1E997B3C005130EE /* Assets.xcassets */,
+				B22BFB8C1E997B3C005130EE /* LaunchScreen.storyboard */,
+				B22BFB8F1E997B3C005130EE /* Info.plist */,
+			);
+			path = ExampleiOS;
+			sourceTree = "<group>";
+		};
+		B22BFB961E997B53005130EE /* ExampleWatch */ = {
+			isa = PBXGroup;
+			children = (
+				B22BFB971E997B53005130EE /* Interface.storyboard */,
+				B22BFB9A1E997B53005130EE /* Assets.xcassets */,
+				B22BFB9C1E997B53005130EE /* Info.plist */,
+			);
+			path = ExampleWatch;
+			sourceTree = "<group>";
+		};
+		B22BFBA51E997B54005130EE /* ExampleWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B22BFBA81E997B54005130EE /* InterfaceController.swift */,
+				B22BFBAA1E997B54005130EE /* ExtensionDelegate.swift */,
+				B22BFBAC1E997B54005130EE /* NotificationController.swift */,
+				B22BFBAE1E997B54005130EE /* Assets.xcassets */,
+				B22BFBB01E997B54005130EE /* Info.plist */,
+				B22BFBA61E997B54005130EE /* Supporting Files */,
+			);
+			path = "ExampleWatch Extension";
+			sourceTree = "<group>";
+		};
+		B22BFBA61E997B54005130EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B22BFBA71E997B54005130EE /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		B22BFB061E996981005130EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB431E996A3B005130EE /* ImageSequance.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB131E996993005130EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB441E996A3B005130EE /* ImageSequance.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB201E99699F005130EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB451E996A3B005130EE /* ImageSequance.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB2D1E9969AE005130EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB461E996A3B005130EE /* ImageSequance.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		B22BFAEC1E9965EA005130EE /* ImageSequance */ = {
+		B22BFB081E996981005130EE /* ImageSequance iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B22BFAFF1E9965EA005130EE /* Build configuration list for PBXNativeTarget "ImageSequance" */;
+			buildConfigurationList = B22BFB0E1E996981005130EE /* Build configuration list for PBXNativeTarget "ImageSequance iOS" */;
 			buildPhases = (
-				B22BFAE91E9965EA005130EE /* Sources */,
-				B22BFAEA1E9965EA005130EE /* Frameworks */,
-				B22BFAEB1E9965EA005130EE /* Resources */,
+				B22BFB041E996981005130EE /* Sources */,
+				B22BFB051E996981005130EE /* Frameworks */,
+				B22BFB061E996981005130EE /* Headers */,
+				B22BFB071E996981005130EE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ImageSequance;
-			productName = ImageSequance;
-			productReference = B22BFAED1E9965EA005130EE /* ImageSequance.app */;
+			name = "ImageSequance iOS";
+			productName = "ImageSequance iOS";
+			productReference = B22BFB091E996981005130EE /* ImageSequance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B22BFB151E996993005130EE /* ImageSequance Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22BFB1B1E996993005130EE /* Build configuration list for PBXNativeTarget "ImageSequance Watch" */;
+			buildPhases = (
+				B22BFB111E996993005130EE /* Sources */,
+				B22BFB121E996993005130EE /* Frameworks */,
+				B22BFB131E996993005130EE /* Headers */,
+				B22BFB141E996993005130EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageSequance Watch";
+			productName = "ImageSequance Watch";
+			productReference = B22BFB161E996993005130EE /* ImageSequance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B22BFB221E99699F005130EE /* ImageSequance TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22BFB281E99699F005130EE /* Build configuration list for PBXNativeTarget "ImageSequance TV" */;
+			buildPhases = (
+				B22BFB1E1E99699F005130EE /* Sources */,
+				B22BFB1F1E99699F005130EE /* Frameworks */,
+				B22BFB201E99699F005130EE /* Headers */,
+				B22BFB211E99699F005130EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageSequance TV";
+			productName = "ImageSequance TV";
+			productReference = B22BFB231E99699F005130EE /* ImageSequance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B22BFB2F1E9969AE005130EE /* ImageSequance Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22BFB351E9969AE005130EE /* Build configuration list for PBXNativeTarget "ImageSequance Mac" */;
+			buildPhases = (
+				B22BFB2B1E9969AE005130EE /* Sources */,
+				B22BFB2C1E9969AE005130EE /* Frameworks */,
+				B22BFB2D1E9969AE005130EE /* Headers */,
+				B22BFB2E1E9969AE005130EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageSequance Mac";
+			productName = "ImageSequance Mac";
+			productReference = B22BFB301E9969AE005130EE /* ImageSequance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B22BFB5A1E99759C005130EE /* ExampleMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22BFB671E99759C005130EE /* Build configuration list for PBXNativeTarget "ExampleMac" */;
+			buildPhases = (
+				B22BFB571E99759C005130EE /* Sources */,
+				B22BFB581E99759C005130EE /* Frameworks */,
+				B22BFB591E99759C005130EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleMac;
+			productName = ExampleMac;
+			productReference = B22BFB5B1E99759C005130EE /* ExampleMac.app */;
 			productType = "com.apple.product-type.application";
+		};
+		B22BFB6D1E9979C5005130EE /* ExampleTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22BFB7A1E9979C5005130EE /* Build configuration list for PBXNativeTarget "ExampleTV" */;
+			buildPhases = (
+				B22BFB6A1E9979C5005130EE /* Sources */,
+				B22BFB6B1E9979C5005130EE /* Frameworks */,
+				B22BFB6C1E9979C5005130EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleTV;
+			productName = ExampleTV;
+			productReference = B22BFB6E1E9979C5005130EE /* ExampleTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B22BFB801E997B3C005130EE /* ExampleiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22BFB901E997B3C005130EE /* Build configuration list for PBXNativeTarget "ExampleiOS" */;
+			buildPhases = (
+				B22BFB7D1E997B3C005130EE /* Sources */,
+				B22BFB7E1E997B3C005130EE /* Frameworks */,
+				B22BFB7F1E997B3C005130EE /* Resources */,
+				B22BFBBB1E997B54005130EE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B22BFBB21E997B54005130EE /* PBXTargetDependency */,
+			);
+			name = ExampleiOS;
+			productName = ExampleiOS;
+			productReference = B22BFB811E997B3C005130EE /* ExampleiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B22BFB941E997B53005130EE /* ExampleWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22BFBB81E997B54005130EE /* Build configuration list for PBXNativeTarget "ExampleWatch" */;
+			buildPhases = (
+				B22BFB931E997B53005130EE /* Resources */,
+				B22BFBB71E997B54005130EE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B22BFBA41E997B54005130EE /* PBXTargetDependency */,
+			);
+			name = ExampleWatch;
+			productName = ExampleWatch;
+			productReference = B22BFB951E997B53005130EE /* ExampleWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B22BFBA01E997B54005130EE /* ExampleWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22BFBB41E997B54005130EE /* Build configuration list for PBXNativeTarget "ExampleWatch Extension" */;
+			buildPhases = (
+				B22BFB9D1E997B54005130EE /* Sources */,
+				B22BFB9E1E997B54005130EE /* Frameworks */,
+				B22BFB9F1E997B54005130EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExampleWatch Extension";
+			productName = "ExampleWatch Extension";
+			productReference = B22BFBA11E997B54005130EE /* ExampleWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -94,7 +516,47 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = cemolcay;
 				TargetAttributes = {
-					B22BFAEC1E9965EA005130EE = {
+					B22BFB081E996981005130EE = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 77Y3N48SNF;
+						ProvisioningStyle = Automatic;
+					};
+					B22BFB151E996993005130EE = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 77Y3N48SNF;
+						ProvisioningStyle = Automatic;
+					};
+					B22BFB221E99699F005130EE = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 77Y3N48SNF;
+						ProvisioningStyle = Automatic;
+					};
+					B22BFB2F1E9969AE005130EE = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 77Y3N48SNF;
+						ProvisioningStyle = Automatic;
+					};
+					B22BFB5A1E99759C005130EE = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 77Y3N48SNF;
+						ProvisioningStyle = Automatic;
+					};
+					B22BFB6D1E9979C5005130EE = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 77Y3N48SNF;
+						ProvisioningStyle = Automatic;
+					};
+					B22BFB801E997B3C005130EE = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 77Y3N48SNF;
+						ProvisioningStyle = Automatic;
+					};
+					B22BFB941E997B53005130EE = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 77Y3N48SNF;
+						ProvisioningStyle = Automatic;
+					};
+					B22BFBA01E997B54005130EE = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 77Y3N48SNF;
 						ProvisioningStyle = Automatic;
@@ -114,51 +576,235 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B22BFAEC1E9965EA005130EE /* ImageSequance */,
+				B22BFB081E996981005130EE /* ImageSequance iOS */,
+				B22BFB151E996993005130EE /* ImageSequance Watch */,
+				B22BFB221E99699F005130EE /* ImageSequance TV */,
+				B22BFB2F1E9969AE005130EE /* ImageSequance Mac */,
+				B22BFB5A1E99759C005130EE /* ExampleMac */,
+				B22BFB6D1E9979C5005130EE /* ExampleTV */,
+				B22BFB801E997B3C005130EE /* ExampleiOS */,
+				B22BFB941E997B53005130EE /* ExampleWatch */,
+				B22BFBA01E997B54005130EE /* ExampleWatch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B22BFAEB1E9965EA005130EE /* Resources */ = {
+		B22BFB071E996981005130EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B22BFAFB1E9965EA005130EE /* LaunchScreen.storyboard in Resources */,
-				B22BFAF81E9965EA005130EE /* Assets.xcassets in Resources */,
-				B22BFAF61E9965EA005130EE /* Main.storyboard in Resources */,
+				B22BFB4F1E996A3B005130EE /* Info TV.plist in Resources */,
+				B22BFB531E996A3B005130EE /* Info Watch.plist in Resources */,
+				B22BFB471E996A3B005130EE /* Info iOS.plist in Resources */,
+				B22BFB4B1E996A3B005130EE /* Info Mac.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB141E996993005130EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB501E996A3B005130EE /* Info TV.plist in Resources */,
+				B22BFB541E996A3B005130EE /* Info Watch.plist in Resources */,
+				B22BFB481E996A3B005130EE /* Info iOS.plist in Resources */,
+				B22BFB4C1E996A3B005130EE /* Info Mac.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB211E99699F005130EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB511E996A3B005130EE /* Info TV.plist in Resources */,
+				B22BFB551E996A3B005130EE /* Info Watch.plist in Resources */,
+				B22BFB491E996A3B005130EE /* Info iOS.plist in Resources */,
+				B22BFB4D1E996A3B005130EE /* Info Mac.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB2E1E9969AE005130EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB521E996A3B005130EE /* Info TV.plist in Resources */,
+				B22BFB561E996A3B005130EE /* Info Watch.plist in Resources */,
+				B22BFB4A1E996A3B005130EE /* Info iOS.plist in Resources */,
+				B22BFB4E1E996A3B005130EE /* Info Mac.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB591E99759C005130EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB621E99759C005130EE /* Assets.xcassets in Resources */,
+				B22BFB651E99759C005130EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB6C1E9979C5005130EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB781E9979C5005130EE /* Assets.xcassets in Resources */,
+				B22BFB761E9979C5005130EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB7F1E997B3C005130EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB8E1E997B3C005130EE /* LaunchScreen.storyboard in Resources */,
+				B22BFB8B1E997B3C005130EE /* Assets.xcassets in Resources */,
+				B22BFB891E997B3C005130EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB931E997B53005130EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB9B1E997B53005130EE /* Assets.xcassets in Resources */,
+				B22BFB991E997B53005130EE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB9F1E997B54005130EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFBAF1E997B54005130EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B22BFAE91E9965EA005130EE /* Sources */ = {
+		B22BFB041E996981005130EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B22BFAF31E9965EA005130EE /* ViewController.swift in Sources */,
-				B22BFAF11E9965EA005130EE /* AppDelegate.swift in Sources */,
+				B22BFB3A1E9969B9005130EE /* ImageSequance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB111E996993005130EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB3B1E9969B9005130EE /* ImageSequance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB1E1E99699F005130EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB3C1E9969B9005130EE /* ImageSequance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB2B1E9969AE005130EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB3D1E9969B9005130EE /* ImageSequance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB571E99759C005130EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB601E99759C005130EE /* ViewController.swift in Sources */,
+				B22BFB5E1E99759C005130EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB6A1E9979C5005130EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB731E9979C5005130EE /* ViewController.swift in Sources */,
+				B22BFB711E9979C5005130EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB7D1E997B3C005130EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFB861E997B3C005130EE /* ViewController.swift in Sources */,
+				B22BFB841E997B3C005130EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22BFB9D1E997B54005130EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22BFBAD1E997B54005130EE /* NotificationController.swift in Sources */,
+				B22BFBAB1E997B54005130EE /* ExtensionDelegate.swift in Sources */,
+				B22BFBA91E997B54005130EE /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B22BFBA41E997B54005130EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B22BFBA01E997B54005130EE /* ExampleWatch Extension */;
+			targetProxy = B22BFBA31E997B54005130EE /* PBXContainerItemProxy */;
+		};
+		B22BFBB21E997B54005130EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B22BFB941E997B53005130EE /* ExampleWatch */;
+			targetProxy = B22BFBB11E997B54005130EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		B22BFAF41E9965EA005130EE /* Main.storyboard */ = {
+		B22BFB631E99759C005130EE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B22BFAF51E9965EA005130EE /* Base */,
+				B22BFB641E99759C005130EE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B22BFAF91E9965EA005130EE /* LaunchScreen.storyboard */ = {
+		B22BFB741E9979C5005130EE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B22BFAFA1E9965EA005130EE /* Base */,
+				B22BFB751E9979C5005130EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B22BFB871E997B3C005130EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B22BFB881E997B3C005130EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B22BFB8C1E997B3C005130EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B22BFB8D1E997B3C005130EE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B22BFB971E997B53005130EE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B22BFB981E997B53005130EE /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -208,6 +854,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = ImageSequance;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -252,6 +899,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ImageSequance;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -259,29 +907,367 @@
 			};
 			name = Release;
 		};
-		B22BFB001E9965EA005130EE /* Debug */ = {
+		B22BFB0F1E996981005130EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.ImageSequance-iOS";
+				PRODUCT_NAME = ImageSequance;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B22BFB101E996981005130EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.ImageSequance-iOS";
+				PRODUCT_NAME = ImageSequance;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B22BFB1C1E996993005130EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info Watch.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.ImageSequance-Watch";
+				PRODUCT_NAME = ImageSequance;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B22BFB1D1E996993005130EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info Watch.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.ImageSequance-Watch";
+				PRODUCT_NAME = ImageSequance;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		B22BFB291E99699F005130EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info TV.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.ImageSequance-TV";
+				PRODUCT_NAME = ImageSequance;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B22BFB2A1E99699F005130EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info TV.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.ImageSequance-TV";
+				PRODUCT_NAME = ImageSequance;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B22BFB361E9969AE005130EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info Mac.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.ImageSequance-Mac";
+				PRODUCT_NAME = ImageSequance;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B22BFB371E9969AE005130EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info Mac.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.ImageSequance-Mac";
+				PRODUCT_NAME = ImageSequance;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B22BFB681E99759C005130EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				INFOPLIST_FILE = ExampleMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ExampleMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B22BFB691E99759C005130EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				INFOPLIST_FILE = ExampleMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ExampleMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B22BFB7B1E9979C5005130EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				INFOPLIST_FILE = ExampleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ExampleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		B22BFB7C1E9979C5005130EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				INFOPLIST_FILE = ExampleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ExampleTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		B22BFB911E997B3C005130EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
-				INFOPLIST_FILE = ImageSequance/Info.plist;
+				INFOPLIST_FILE = ExampleiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ImageSequance;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ExampleiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		B22BFB011E9965EA005130EE /* Release */ = {
+		B22BFB921E997B3C005130EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
-				INFOPLIST_FILE = ImageSequance/Info.plist;
+				INFOPLIST_FILE = ExampleiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ImageSequance;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ExampleiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B22BFBB51E997B54005130EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				INFOPLIST_FILE = "ExampleWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ExampleiOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		B22BFBB61E997B54005130EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				INFOPLIST_FILE = "ExampleWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ExampleiOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		B22BFBB91E997B54005130EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				IBSC_MODULE = ExampleWatch_Extension;
+				INFOPLIST_FILE = ExampleWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ExampleiOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		B22BFBBA1E997B54005130EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				IBSC_MODULE = ExampleWatch_Extension;
+				INFOPLIST_FILE = ExampleWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.ExampleiOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
 			};
 			name = Release;
 		};
@@ -297,13 +1283,86 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B22BFAFF1E9965EA005130EE /* Build configuration list for PBXNativeTarget "ImageSequance" */ = {
+		B22BFB0E1E996981005130EE /* Build configuration list for PBXNativeTarget "ImageSequance iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B22BFB001E9965EA005130EE /* Debug */,
-				B22BFB011E9965EA005130EE /* Release */,
+				B22BFB0F1E996981005130EE /* Debug */,
+				B22BFB101E996981005130EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22BFB1B1E996993005130EE /* Build configuration list for PBXNativeTarget "ImageSequance Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22BFB1C1E996993005130EE /* Debug */,
+				B22BFB1D1E996993005130EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22BFB281E99699F005130EE /* Build configuration list for PBXNativeTarget "ImageSequance TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22BFB291E99699F005130EE /* Debug */,
+				B22BFB2A1E99699F005130EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22BFB351E9969AE005130EE /* Build configuration list for PBXNativeTarget "ImageSequance Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22BFB361E9969AE005130EE /* Debug */,
+				B22BFB371E9969AE005130EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22BFB671E99759C005130EE /* Build configuration list for PBXNativeTarget "ExampleMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22BFB681E99759C005130EE /* Debug */,
+				B22BFB691E99759C005130EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22BFB7A1E9979C5005130EE /* Build configuration list for PBXNativeTarget "ExampleTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22BFB7B1E9979C5005130EE /* Debug */,
+				B22BFB7C1E9979C5005130EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22BFB901E997B3C005130EE /* Build configuration list for PBXNativeTarget "ExampleiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22BFB911E997B3C005130EE /* Debug */,
+				B22BFB921E997B3C005130EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22BFBB41E997B54005130EE /* Build configuration list for PBXNativeTarget "ExampleWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22BFBB51E997B54005130EE /* Debug */,
+				B22BFBB61E997B54005130EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22BFBB81E997B54005130EE /* Build configuration list for PBXNativeTarget "ExampleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22BFBB91E997B54005130EE /* Debug */,
+				B22BFBBA1E997B54005130EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

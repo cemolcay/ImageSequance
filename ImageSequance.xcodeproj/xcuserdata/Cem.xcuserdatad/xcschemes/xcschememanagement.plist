@@ -4,7 +4,47 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ImageSequance.xcscheme</key>
+		<key>ExampleMac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>ExampleTV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>ExampleWatch (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>ExampleWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>ExampleiOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>ImageSequance Mac.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>ImageSequance TV.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ImageSequance Watch.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ImageSequance iOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -13,6 +53,46 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>B22BFAEC1E9965EA005130EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B22BFB081E996981005130EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B22BFB151E996993005130EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B22BFB221E99699F005130EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B22BFB2F1E9969AE005130EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B22BFB5A1E99759C005130EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B22BFB6D1E9979C5005130EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B22BFB801E997B3C005130EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B22BFB941E997B53005130EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
