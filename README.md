@@ -23,8 +23,9 @@ pod 'ImageSequance'
 Usage
 ----
 
-* Setup your images sequance naming. For example if you have 10 images than your images should named like `frame-0` to `frame-9`.
-* Craete a sequance with naming and sequance range or directly image array.
+* Setup your images sequance naming.  
+  For example if you have 10 images than your images should named like `frame-0` to `frame-9`.
+* Create a sequance with naming and sequance range or directly image array.
 * Call `play(sequance:)` function on `UIImageView`, `NSImageView` or `WKInterfaceImage`.
 * Call `stopAnimating()` function to stop animation
 * You could also set `repeatCount` property on sequance. Set 0 for infinite repeat.
