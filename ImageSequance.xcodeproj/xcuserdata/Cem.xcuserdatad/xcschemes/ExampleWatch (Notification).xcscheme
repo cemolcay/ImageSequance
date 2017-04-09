@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B22BFB941E997B53005130EE"
-               BuildableName = "ExampleWatch.app"
-               BlueprintName = "ExampleWatch"
+               BuildableName = "Watch.app"
+               BlueprintName = "Watch"
                ReferencedContainer = "container:ImageSequance.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B22BFB801E997B3C005130EE"
-               BuildableName = "ExampleiOS.app"
-               BlueprintName = "ExampleiOS"
+               BuildableName = "iOS.app"
+               BlueprintName = "iOS"
                ReferencedContainer = "container:ImageSequance.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +47,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B22BFB941E997B53005130EE"
-            BuildableName = "ExampleWatch.app"
-            BlueprintName = "ExampleWatch"
+            BuildableName = "Watch.app"
+            BlueprintName = "Watch"
             ReferencedContainer = "container:ImageSequance.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,8 +65,7 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
-      launchAutomaticallySubstyle = "8"
-      notificationPayloadFile = "ExampleWatch Extension/PushNotificationPayload.apns">
+      launchAutomaticallySubstyle = "8">
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.Carousel"
@@ -74,8 +73,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B22BFB941E997B53005130EE"
-            BuildableName = "ExampleWatch.app"
-            BlueprintName = "ExampleWatch"
+            BuildableName = "Watch.app"
+            BlueprintName = "Watch"
             ReferencedContainer = "container:ImageSequance.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
@@ -83,8 +82,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B22BFB941E997B53005130EE"
-            BuildableName = "ExampleWatch.app"
-            BlueprintName = "ExampleWatch"
+            BuildableName = "Watch.app"
+            BlueprintName = "Watch"
             ReferencedContainer = "container:ImageSequance.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -97,8 +96,7 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
-      launchAutomaticallySubstyle = "8"
-      notificationPayloadFile = "ExampleWatch Extension/PushNotificationPayload.apns">
+      launchAutomaticallySubstyle = "8">
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.Carousel"
@@ -106,8 +104,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B22BFB941E997B53005130EE"
-            BuildableName = "ExampleWatch.app"
-            BlueprintName = "ExampleWatch"
+            BuildableName = "Watch.app"
+            BlueprintName = "Watch"
             ReferencedContainer = "container:ImageSequance.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
@@ -115,8 +113,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B22BFB941E997B53005130EE"
-            BuildableName = "ExampleWatch.app"
-            BlueprintName = "ExampleWatch"
+            BuildableName = "Watch.app"
+            BlueprintName = "Watch"
             ReferencedContainer = "container:ImageSequance.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

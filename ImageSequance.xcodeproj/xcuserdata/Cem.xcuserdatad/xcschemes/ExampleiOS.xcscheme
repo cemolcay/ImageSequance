@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B22BFB801E997B3C005130EE"
-               BuildableName = "ExampleiOS.app"
-               BlueprintName = "ExampleiOS"
+               BuildableName = "iOS.app"
+               BlueprintName = "iOS"
                ReferencedContainer = "container:ImageSequance.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B22BFB801E997B3C005130EE"
-            BuildableName = "ExampleiOS.app"
-            BlueprintName = "ExampleiOS"
+            BuildableName = "iOS.app"
+            BlueprintName = "iOS"
             ReferencedContainer = "container:ImageSequance.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B22BFB801E997B3C005130EE"
-            BuildableName = "ExampleiOS.app"
-            BlueprintName = "ExampleiOS"
+            BuildableName = "iOS.app"
+            BlueprintName = "iOS"
             ReferencedContainer = "container:ImageSequance.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B22BFB801E997B3C005130EE"
-            BuildableName = "ExampleiOS.app"
-            BlueprintName = "ExampleiOS"
+            BuildableName = "iOS.app"
+            BlueprintName = "iOS"
             ReferencedContainer = "container:ImageSequance.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

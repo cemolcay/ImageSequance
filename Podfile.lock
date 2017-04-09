@@ -1,0 +1,12 @@
+PODS:
+  - ImageSequance (0.0.1)
+
+DEPENDENCIES:
+  - ImageSequance
+
+SPEC CHECKSUMS:
+  ImageSequance: 3b891ed8cd28281c31e38397c96b2b38625545e1
+
+PODFILE CHECKSUM: 6e025c47c71b419a3cf7e4b1aae2864baeb5dafa
+
+COCOAPODS: 1.2.1.beta.1
