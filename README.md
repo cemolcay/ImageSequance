@@ -34,7 +34,7 @@ Usage
 let imageSequance = ImageSequance(
   name: "frame-",
   sequance: 0...9) // Int array or 0, 1, ..., 9 syntax will also work.
- imageSequance.repeatCount = 0 // infinite repeat
+imageSequance.repeatCount = 0 // infinite repeat
 imageView.play(sequance: imageSequance)
 ```
 
