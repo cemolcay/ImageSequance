@@ -3,7 +3,7 @@ ImageSequance
 
 Universal image sequance animation library for iOS, tvOS, macOS and watchOS.
 
-Requrements
+Requirements
 ----
 
 * Swift 3+
